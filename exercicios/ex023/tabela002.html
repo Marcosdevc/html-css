@@ -11,6 +11,7 @@
 
         table {
             width: 500px;
+            position: relative;
         }
 
         td, th {
@@ -25,9 +26,19 @@
             background-color: aqua;
         }
 
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
         thead {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
         }
 
         .num {text-align: right;}
@@ -50,6 +61,7 @@
         <caption>População das unidades Federativas</caption>
         <thead>
             <tr>
+                <th></th>
                 <th scope="col">Estado</th>
                 <th scope="col">População</th>
             </tr>
@@ -123,6 +135,7 @@
                 <th></th>
                 <th>Total de Habitantes</th>
                 <td class="num"><strong>170.587.380</strong></td>
+                
             </tr>
         </tfoot>
     </Table>
