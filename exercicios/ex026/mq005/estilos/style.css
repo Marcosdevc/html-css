@@ -20,7 +20,7 @@ header > h1 {
 }
 
 span#menu {
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(80, 79, 79);
     color: white;
     text-align: center;
     display: block;
@@ -28,7 +28,7 @@ span#menu {
 }
 
 span#menu:hover {
-    background-color: rgb(129, 129, 129);
+    background-color: rgb(255, 255, 255);
     color: black;
     transition: 500ms;
     cursor: pointer;
